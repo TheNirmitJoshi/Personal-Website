@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5WM1JSQ45V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5WM1JSQ45V');
+</script>
+
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reflex</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      body {
+        background-color: #131211;
+      }
+      </style>
+
+  </head>
+  <body>
+
+    
+    <div class="container">
+       <div class="board">
+        <div class="box" id="0"></div>
+        <div class="box" id="1"></div>
+        <div class="box" id="2"></div>
+        <div class="box" id="3"></div>
+        <div class="box" id="4"></div>
+        <div class="box" id="5"></div>
+        <div class="box" id="6"></div>
+        <div class="box" id="7"></div>
+        <div class="box" id="8"></div>
+      </div>
+      <h2>Score: <span id="score"></span></h2>
+      <h2>Time: <span id="time"></span></h2>
+      <button id="restart">Restart!</button><br>
+      <audio controls autoplay loop>
+        <source src="latenights.mp3" type="audio/mpeg"/>
+        Your browser does not support the HTML5 audio tag. Consider updating to a newer browser.
+       </audio>
+      </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
